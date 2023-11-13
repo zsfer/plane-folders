@@ -25,7 +25,7 @@ $(() => {
 
    $("#upg-hold").click(() => {
       alert(
-         "Feature is still in development. To support the developer, send gcash: +63 927 512 6933"
+         "Feature is still in development. To support the developer, send gcash: +63 927 512 6933."
       );
    });
 });
