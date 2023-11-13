@@ -8,7 +8,7 @@ let throwSpeed = 1000;
 $(() => {
    updatePlane();
 
-   $(document).click(update);
+   $(".game").click(update);
    $(document).keydown((e) => {
       if (e.which === 32) {
          update();

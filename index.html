@@ -7,6 +7,7 @@
       <link rel="stylesheet" href="style.css" />
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
       <script src="main.js"></script>
+      <script src="upgrades.js"></script>
    </head>
    <body>
       <div class="hud">
@@ -14,8 +15,29 @@
             <h2>Planes folded:</h2>
             <h1>0</h1>
          </div>
+
+         <div class="hud__tip">
+            <p>Click the screen or press space to fold a plane</p>
+         </div>
+
+         <div class="hud__upgrades">
+            <h3>Upgrades</h3>
+            <div class="upgrade-btn">
+               <button id="upg-hold" type="button">100 folds</button>
+               <p>Hold to fold</p>
+               <span class="upgrade-bar"></span>
+            </div>
+
+            <div class="upgrade-btn">
+               <button id="upg-tspeed">5 folds</button>
+               <p>Upgrade throw speed</p>
+               <span class="upgrade-bar"></span>
+            </div>
+         </div>
       </div>
 
-      <div class="plane__container"></div>
+      <div class="game">
+         <div class="plane__container"></div>
+      </div>
    </body>
 </html>
